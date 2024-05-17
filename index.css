@@ -8,8 +8,6 @@ body{
 
 /* typography */
 
-
-
 h1{
     color: whitesmoke;
     font-size: 36px;
@@ -54,3 +52,23 @@ section{
     width: 100%;
 }
 
+.section-two{
+    background-color: #5f29a3;
+    color: whitesmoke;
+}
+
+.body-image{
+    width: 300px;
+    border-radius: 4.6px;
+}
+
+.section-two-images{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    color: #5f29a3;
+    text-align: center;
+    padding: 50px 0px;
+}
