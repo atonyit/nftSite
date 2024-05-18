@@ -35,6 +35,36 @@ a:hover, a:active{
     color: #d4b44c;
 }
 
+.buy-NFTs, .more-info, .about-us, .contact{
+    padding: 10px 10px;
+    border-radius: 4.6px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.more-info, .about-us, .contact{
+    color: #5f29a3;
+}
+
+.buy-NFTs{
+    background-color: #5f29a3;
+    color: whitesmoke;
+}
+
+.buy-NFTs:hover, .more-info:hover, .about-us:hover,
+.buy-NFTs:active, .more-info:active, .about-us:active {
+    background-color: #f3e885;
+    color: #2b283a;
+}
+
+.more-info, .contact{
+    background-color: #f0e0ff;
+}
+
+.about-us{
+    background-color: whitesmoke;
+}
+
+
 /* layout (Top to bottom) */
 header, 
 section, 
@@ -74,32 +104,3 @@ footer{
     color: #5f29a3;
     text-align: center;
 }
-
-section a{
-    padding: 10px 10px;
-    border-radius: 4.6px;
-    font-weight: 500;
-    text-decoration: none;
-}
-.more-info, .about-us, .contact{
-    color: #5f29a3;
-}
-
-.buy-NFTs{
-    background-color: #5f29a3;
-    color: whitesmoke;
-}
-
-.buy-NFTs:hover, .buy-NFTs:active{
-    background-color: #f3e885;
-    color: #2b283a;
-}
-
-.more-info, .contact{
-    background-color: #f0e0ff;
-}
-
-.about-us{
-    background-color: whitesmoke;
-}
-
