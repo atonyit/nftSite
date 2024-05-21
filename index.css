@@ -35,11 +35,13 @@ a:hover, a:active{
     color: #d4b44c;
 }
 
-.buy-NFTs, .more-info, .about-us, .contact{
+.btn{
     padding: 10px 10px;
     border-radius: 4.6px;
     font-weight: 500;
     text-decoration: none;
+    display: inline-block;
+    margin: 5px 0;
 }
 .more-info, .about-us, .contact{
     color: #5f29a3;
@@ -50,8 +52,7 @@ a:hover, a:active{
     color: whitesmoke;
 }
 
-.buy-NFTs:hover, .more-info:hover, .about-us:hover,
-.buy-NFTs:active, .more-info:active, .about-us:active {
+.btn:hover, .btn:active {
     background-color: #f3e885;
     color: #2b283a;
 }
